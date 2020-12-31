@@ -1,0 +1,1952 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    }
+    body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    h1 a,
+    h2 a,
+    h3 a,
+    h4 a,
+    h5 a,
+    h6 a {
+    color: #000;
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 10px;
+    }
+    h1,
+    h1 a {
+    font-size: 60px;
+    font-weight: 700;
+    }
+    h2,
+    h2 a {
+    font-size: 52px;
+    font-weight: 600;
+    }
+    h3,
+    h3 a {
+    font-size: 40px;
+    font-weight: 600;
+    }
+    h4,
+    h4 a {
+    font-size: 28px;
+    font-weight:500;
+    }
+    h5,
+    h5 a {
+    font-size: 22px;
+    font-weight: 300;
+    }
+    h6,
+    h6 a {
+    font-size: 14px;
+    font-weight: 300;
+    }
+    p,
+    ul,
+    ol {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 0 10px 0;
+    line-height: 22px;
+    }
+    ul {
+    margin: 0;
+    padding: 0;
+    }
+    ul li {
+    list-style: none;
+    }
+    a,
+    button {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    }
+    a,
+    a:hover,
+    a:focus {
+    text-decoration: none;
+    outline: none;
+    }
+    img {
+    max-width: 100%;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0
+    }
+    .clear {
+    clear: both;
+    }
+    /*  Menu Section  */
+    #username{text-align: center; padding-top: 5px;}
+    #signout{position: absolute; top: 80px; right: 70px;}
+    .menumain {	margin-top: 20px; float: left;}
+    #menuList{display: inline-flex; }
+    #cssmenu{position: absolute;top: 17px; right: 25%;}
+    #cssmenu > ul > li { padding: 2px 13px; }
+    #cssmenu > ul > li a { font-size: 18px; font-weight: 400;}
+    #menuItemUnderLine{ border-bottom: 2px solid #fff;}
+    .ItemUnderLine:active{ border-bottom: 2px solid #fff;}
+    /* page css */
+    .Sticky{position: fixed; top: 0px; z-index: 100;}
+    .top { padding-top: 15px; border-bottom: 1px solid #fff;}
+    /* .bannermn { background:url(../Images/banner.png) ; background-size: auto; background-position: center; } */
+    .logo { width: 110px; min-height:80px; float: left; margin-right: 13%; margin-top: 5px;}
+    .logupin { width: 150px; height: 46px; float: right;  border: 2px solid #fff; color: #fcfcfd; font-size: 12px; font-weight: 600;
+    text-align: center; border-radius: 30px; margin-top: 0px; position: absolute;top: 12px; right: 30px; }
+    .logupin a { color: #fcfcfd; font-size: 14px; font-weight: 600;line-height: 40px;}
+    .afterLogupin { width: 160px; height: 46px; float: right; color: #fcfcfd; font-size: 16px; font-weight: 600;
+    text-align: center; border-radius: 30px; margin-top: 0px; position: absolute;top: 12px; right: 30px;}
+    .afterLogupin a { color: #fcfcfd; font-size: 16px; font-weight: 600;line-height: 40px; }
+    .bannertxt { width: 100%; display: block; margin: 60px 0 0 0 !important;  }
+    .bannertxt h1,h2 { color: #fff; padding-bottom: 7px; text-align: left; font-size: 43px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+    .bannertxt h3 { color: #fff; margin-top: 0px;  font-size: 33px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+    .googleapp { width: 100%; display: block; margin-top: 0px }
+    .googleapp a { float: left; display: inline-block; }
+    .training-container > h4 { color: #fff; position: relative;  font-size: 25px; }
+    .training-container{ margin-top: 10px; background-color: #000080; padding: 10px 20px 5px 20px;border-radius: 50px;}
+    /* .row > h4:after {
+    content: '';
+    background: url(../Images/arror.png) no-repeat;
+    background-position:10px 8px;
+    width: 50px; height: 27px;
+    position: absolute;} */
+    .homeSliderImage{width: 100%; height: 590px;}
+
+    /* icon section */
+    .iconmn { width: 100%; display: block; padding: 0px 0 0px 0; }
+    .icon_box { width: 100%; float: left; margin: 20px 0 0; text-align: center;   transition: transform .2s;}
+    .icon_box h4 { font-size: 36px; font-weight:500; color: #010101; }
+    .icon_box p { font-size: 18px; font-weight:400; color: #888888; }
+    .icon_box img { padding-bottom: 20px; transition: transform .2s;  }
+    .icon_box:hover img{  transform: scale(1.2);  }
+    .icon_box:hover h4 { color: #000080; }
+    .icon_box:hover p { color: #242424;  }
+    /* 3rd row section */
+    .locationrow { width: 100%; display: block; padding: 30px 0 0px 0;  }
+    .iconBox2 { width: 100%; max-width: 186px; float: left; margin: 30px 18px; text-align: center;
+    box-shadow: 0px 2px 11px #ccc; padding: 38px 0 20px 0; background-color: #fff; border-radius: 10px;}
+    .iconBox2 img { margin-bottom: 18px; }
+    .iconBox2 h5 { font-size: 18px; font-weight:600; color: #010101; margin-bottom: 5px; }
+    .iconBox2 p { font-size: 18px; font-weight:500; color: #4b4b4b; }
+    /* 3rd row section */
+    /* how it work */
+    
+    .howitwork { padding: 40px 0 0 0;  }
+    .howitwork h3,h2 { font-size: 50px; color: #1b1b1b; text-align: center; font-weight:600; }
+    .howitwork h5 { font-size: 22px; color: #a5a3a3; text-align: center; font-weight:500; text-transform: uppercase; margin-bottom:20px;  }
+    .howitImages { width: 100%; text-align: center; margin-bottom: 15px; }
+    
+    .howitbox1 { width:100%; max-width: 370px; margin-bottom: 10px; white-space: normal; float: center; margin-top: 10px; }
+    .howitbox1 img { margin-bottom: 70px; clear: both;  }
+    
+    /*.howitbox1:first-child { margin-left: 30px; max-width: 355px;}
+    .howitbox1:first-child img { float: right; margin-top: 2px;  }*/
+    
+    .howitbox1 .hwleft2 { max-width: 336px; padding: 0 5px 0 5px; }
+    
+    .howitbox1 h5 { font-size: 21px; font-weight:600; color: #000080; margin-bottom: 0px; line-height: 25px; text-transform:none; text-align: left; }
+    .howitbox1 h5 span{ float: left; margin-right: 10px; }
+    .howitbox1 img { margin-bottom:0px; }
+    .howitbox1 p { font-size: 18px; font-weight:400; color: #343434; margin-top: 15px;}
+    .allcenter { text-align: center; margin-bottom: 0px; }
+    .allcenter a { float: none;  }
+    /* how it work end */
+    /* our fact  */
+    .ourfactmn { width:100%; padding: 40px 0 20px 0;
+    background-position: center top;}
+    .ourfactmn h3,h2 { font-size:48px; font-weight:500; color: #000000; text-align: center;}
+    .ourfactmn p { font-size:22px; font-weight:300; color:#000000; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+    .factbox { width: 100%; display: block; padding: 05px 30px 0px; border-radius: 0px; margin-top: 20px; border-right: 1px solid #ECF0F1;}
+    .dolbox { width: 150px;   margin: 10px auto; text-align: center;
+    padding-top:10px; }
+    .dolbox h3 { font-size: 25px; font-weight: 500; color:#000080; line-height: 30px;}
+    /* .dolbox h3 span {font-size: 30px; line-height: 5px;  } */
+    .dolbox p { font-size:16px;  font-weight: 300; color: #676767;  }
+    .facttextbox { text-align: center; padding: 15px 0px 5px; }
+    /* .facttextbox h3 { font-size: 30px; font-weight:600; color:#000080; line-height: 35px;} */
+    .facttextbox p span{ font-size:20px; font-weight: 500; margin-bottom: 15px; color: #000080; }
+    .facttextbox p { font-size:16px; font-weight: 400; color: #676767; margin-bottom: 25px;  }
+    div.bttn1 { background: #000080; padding:10px 12px; color: #fff; font-size:15px; font-weight:500; border-radius:0px; min-width: 130px; }
+    .factbox { background: #fff; }
+    div.bttn1:hover{color: #fff;}
+    .factbox >.dolbox p { color: #010101; font-weight: 400; }
+    .factbox >.facttextbox h3 { color: #000080; }
+    .creditPlanBox_container{margin: 10px 100px 10px 100px;}
+    .creditPlanBox{box-shadow: 0px 2px 11px #ccc; padding: 0px 10px 30px 10px; }
+    /* our fact end */
+    /* our blog */
+    
+    .ourblogmn { width:100%; padding: 30px 0 30px 0; text-align: center;}
+    .ourblogmn h1,h2 { font-size:48px; font-weight:600; line-height:50px; color: #181818;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+    .ourblogmn h3  {font-size:30px; font-weight:600; line-height: 35px; color: #5e5e5e;  }
+    .ourblogmn p { font-size:17px; line-height:24px; font-weight: 300; color: #5e5e5e;  }
+    .blogslide { margin-top: 60px; }
+    .slideBox { max-width: 313px; margin-left: auto; margin-right: auto; }
+    .slideBox h5 { font-weight: 600; color:#000000; padding-top: 35px; position: relative; margin-top: 25px; }
+    .slideBox h5:before {
+    content: '';
+    position: absolute;
+    width: 53px; height: 2px; background:#000;
+    left: 0; right: 0; top:0px;
+    margin: 0 auto;}
+    .slideBox h6 { font-size: 16px; font-weight: 500; color:#706f6f;  }
+    .slideBox h6 span{ font-weight:600; color:#000;   }
+    .slideBox p { font-size:16px; line-height:22px; font-weight:400; color: #706f6f;  }
+    .slideBox a { font-size:16px; line-height:22px; font-weight:500; color: #1e93f9; display: block; text-align: center;
+    max-width:265px; position: relative;  }
+    .slideBox a:after{
+    content: '';
+    position: absolute;
+    background:url(../Images/readmore.png);
+    width: 16px;
+    height: 6px;
+    top: 10px; right: 65px;
+    }
+    .blogslide .owl-dots {
+    text-align: center;
+    margin-top: 80px;
+    }
+    .blogslide .owl-dot {
+    width: 11px;
+    height:11px;
+    background: #cdcdcd;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 1px;
+    }
+    .blogslide .owl-dot.active {
+    width: 11px;
+    height: 11px;
+    background: #000080;
+    border: 2px solid #000080;
+    }
+    .allcenter2 { text-align: center; margin-bottom: 20px; }
+    .allcenter2 a { float: none; margin:0 18px;  }
+    /* our blog end */
+    
+    /* google store app and apple app store */
+    #googleAppstore2_container {width: 100%; text-align: center; margin-bottom: 5px;}
+    #googleAppstore2_container img {width: 180px;height: 60px; margin: 5px 5px 5px 5px;}
+
+    /* footer contact */
+    .footercont { padding:30px 0 20px 0; background: #f2f2f2; }
+    .ftcontact { width: 100%; max-width: 360px; float: left; margin: 0 0px 0 0px; padding-right: 35px; }
+    .ftcontact h5 {font-size: 22px; font-weight:700; color: #000; padding-bottom: 20px; margin-bottom: 20px; position: relative; text-transform: uppercase; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+    .ftcontact h5:after{content: ''; position: absolute; background: #000; width: 74px; height: 2px; left: 0px; bottom: 0px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+    .marker1{ width: 100%; float: left; }
+    .marker1 p span { margin-right: 5px; width: 60px; height: 70px; float: left;}
+    .marker1 p { font-size:16px; color:#4a4949; }
+    .call1{ width: 100%; float: left; }
+    .call1 a span { margin-right: 5px; width: 60px; height: 40px; float: left;}
+    .call1 a { font-size:20px; color:#000; font-weight: 400;   }
+    .email1{ width: 100%; float: left; }
+    .email1 a span { margin-right: 5px; width: 60px; height: 48px; float: left;}
+    .email1 a { font-size:20px; color:#000;font-weight: 400;    }
+    .ftabout { width: 100%; max-width: 215px; float: left; margin: 0 0px 0 0px }
+    .ftabout h5 {font-size: 22px; font-weight:700; color: #000; padding-bottom: 20px; margin-bottom: 20px; position: relative; text-transform: uppercase; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+    .ftabout h5:after{
+    content: '';
+    position: absolute;
+    background: #000;
+    width: 74px;
+    height: 2px;
+    left: 0px;
+    bottom: 0px;
+    }
+    .ftabout ul li { background: url(../Images/right_arror.png) no-repeat; background-position: 0px 8px; padding-left: 20px;
+    font-size: 16px; font-weight: 500; color: #2a2a2a; margin-bottom: 16px; }
+    link {font-size: 16px; font-weight: 500; color: #2a2a2a; margin-bottom: 16px; }
+    .stayconect { width: 100%; max-width: 315px; float: left; margin: 0 0px 0 0px }
+    .stayconect h5 {font-size: 22px; font-weight:700; color: #000; padding-bottom: 20px; margin-bottom: 20px; position: relative; text-transform: uppercase; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+    .stayconect h5:after{
+    content: '';
+    position: absolute;
+    background: #000;
+    width: 74px;
+    height: 2px;
+    left: 0px;
+    bottom: 0px;
+    }
+    .stayconect input[type="email"] { width: 100%; line-height: 33px; border: 1px solid #dcdcdc; padding: 5px 15px;
+    border-radius: 30px; margin-bottom: 10px; text-align: left;}
+    .stayconect input[type="Submit"] { background: #000080; color: #fff; font-size: 14px; border: 0px;
+    width: 40%; height: 40px; font-weight:400; border-radius: 30px; text-align: center; padding: 5px 10px; margin-left: 18px;}
+    .social { width: 140px; float: left; }
+    .social h6 { font-size: 16px; font-weight:700; color: #000; margin-top: 10px;  }
+    
+    .footer-sociel-icon li{
+        float: left;
+        padding-top: 20px;
+        cursor: pointer;
+     }
+     .footer-sociel-icon li a{
+          padding: 7px 10px 7px 10px;
+         font-size: 22px;
+         margin-right: 5px;
+         color: #000080;
+         }
+     .footer-sociel-icon li a:hover{
+         font-size: 23px;
+         background-color: #000080;
+         color: #fff;
+         border-radius: 50%;
+         transition: 0.3s;
+     }
+    /* .social ul { text-align: center; width: 100% }
+    .social ul li { width: 31px; height: 31px; border-radius: 30px; line-height: 31px; float: left;  }
+    .social ul li a.fa {color: #000;   }
+    .social ul li:hover { background: #000; }
+    .social ul li:hover a.fa {color: #fff;   } */
+    /* footer contact */
+    /* footer section */
+    .footermn {padding: 2px; background:#000000; width: 100%; display: block;    }
+    .footermn p {font-size: 16px; font-weight:400; color: #7a7a7a; text-align: center; padding-top: 14px;}
+    /* footer section */
+    
+    
+    
+    /* inner banner */
+    .innnerban {  height: 100px; background-position: center; width: 100%; }
+    
+    
+    
+    /* contact us page */
+    .contusmn { width: 100%; display: block; margin: 20px 0 50px 0; }
+    
+    .continn { width: 100%; display: block; border: 1px solid #d9d9d9; border-radius: 10px; padding: 24px 100px; }
+    .continn:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+    .continn input[type="text"] { width: 47%; line-height: 60px; border: 1px solid rgb(231, 226, 226); float: left; border-radius: 5px;
+     margin: 7px 10px; padding:0  10px 0 35px; text-align: left; background-color: #fff; }
+    .continn input[type="tel"] { width: 47%; line-height: 60px; border: 1px solid  rgb(231, 226, 226); float: left; border-radius: 5px;
+     margin: 7px 10px; padding:0  10px 0 35px;  }
+    .continn input[type="email"] { width: 47%; line-height: 60px; border: 1px solid rgb(231, 226, 226); float: left; border-radius: 5px;
+     margin: 7px 10px; padding:0  10px 0 35px;  }
+    
+    
+    .continn textarea { width: 97%; height: 100px; line-height: 30px; border: 1px solid rgb(231, 226, 226); float: left; border-radius: 5px;
+     margin: 10px 10px 20px 10px; padding:15px  10px 5px 35px; }
+    .contusmn .continn input[ type="Submit"] { background: #000080; color: #fff; font-size: 18px; width: 190px; padding-bottom: 13px; padding-top: 10px; padding-left: 1px;
+        font-weight:normal; border-radius: 30px; margin: 0px auto 10px auto; display: block; box-shadow: none; text-align: center;text-transform: none;
+    
+    }
+    
+    .continn h4 { font-size: 30px; font-weight:500; color: #000; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+    .continn p { font-size: 16px; font-weight: 400; color: #494949; text-align: center; max-width: 342px; margin: 0 auto 30px auto; }
+    
+    
+    /* contact us page */
+    
+    
+/* Location page */
+
+.loactionmn { width:100%; display: block; margin: 40px 0; }
+.loactionmn h3 { color:#000000; font-size:36px; font-weight:300; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+.loactionmn p { color:#998e8e; font-size:16px; font-weight:400;  }
+.loactionmn p span { color:#000080; font-family: 'Franklin Gothic', Arial;  }
+.loactionmn h4 { margin-bottom: 10px;}
+.unistate {  }
+.unistate h4 { color:#312f2f; font-size: 24px; font-weight:500; margin-right: -15px; padding-top: 15px; }
+.unistate ul { }
+.heiscrol { display: block; max-height: 230px;  width: 100%;}
+.unistate ul li { width:100%; float: left; color:#635a5a; font-size:14px; font-weight:300; line-height:33px;font-family: '-apple-system, BlinkMacSystemFont', Verdana; padding-top: 2px;padding-bottom: 2px;}
+.unistate ul li span { font-weight:500; display: block; margin-top:10px; margin-right: -10px; color: #585050; font-size:19px; font-family: 'Segoe UI', Verdana;}
+/* Location page end */
+
+/* suggest gym modal page */
+.suggestGym_contusmn { width: 100%; display: block; margin: 20px 0 50px 0; }
+    
+    .suggestGym_continn { width: 100%; display: block; border: 1px solid #d9d9d9; border-radius: 10px; padding: 24px 4px; }
+    .suggestGym_continn:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+    .suggestGym_continn input[type="text"] { width: 97%; line-height: 60px; border: 1px solid rgb(231, 226, 226); float: left; border-radius: 5px;
+     margin: 7px 5px; padding:0  10px 0 35px; text-align: left; background-color: #fff; }
+    .suggestGym_continn input[type="tel"] { width: 97%; line-height: 60px; border: 1px solid  rgb(231, 226, 226); float: left; border-radius: 5px;
+     margin: 7px 5px; padding:0  10px 0 35px;  }
+    .suggestGym_continn input[type="email"] { width: 97%; line-height: 60px; border: 1px solid rgb(231, 226, 226); float: left; border-radius: 5px;
+     margin: 7px 5px; padding:0  10px 0 35px;  }
+     .suggestGym_continn select{ width: 97%; line-height: 60px; border: 1px solid rgb(231, 226, 226); float: left; border-radius: 5px;
+        margin: 7px 5px; padding:0  10px 0 35px; padding: 20px 20px 20px 30px; }
+       
+    
+    .suggestGym_continn textarea { width: 97%; height: 100px; line-height: 30px; border: 1px solid rgb(231, 226, 226); float: left; border-radius: 5px;
+     margin: 10px 5px 20px 5px; padding:0  10px 0 35px; }
+    .suggestGym_contusmn .suggestGym_continn input[ type="Submit"] { background: #000080; color: #fff; font-size: 18px; width: 190px; padding-bottom: 13px; padding-top: 10px; padding-left: 1px;
+        font-weight:normal; border-radius: 30px; margin: 0px auto 10px auto; display: block; box-shadow: none; text-align: center;text-transform: none;
+    
+    }
+    
+    .suggestGym_continn h4 { font-size: 30px; font-weight:500; color: #000; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+    .suggestGym_continn p { font-size: 16px; font-weight: 400; color: #494949; text-align: center; max-width: 342px; margin: 0 auto 30px auto; }
+    
+    
+/* end suggest gym modal page */
+
+/* Blog page */
+.tabmn { width: 100%; display: block; margin: 15px 0 45px 0; }
+.tabmn a {   font-size: 17px; font-weight: 500; display: block; max-width: 170px; height: 59px; margin: 0 10px 10px 0; 
+   float: left; border: 1px solid #fff; color:#a8a8a8; border-radius: 30px; line-height: 56px;  width: 100%;
+   text-align: center;box-shadow: 0px 4px 9px rgb(197, 206, 231); cursor: pointer; }
+.tabmn a:hover { border: 1px solid #b9b9b9; color:#000080; }
+.tabmn a.active { border: 1px solid #b9b9b9; color:#000080; }
+
+.tabmn:after {content: ''; display: block; clear: both;  } 
+.blogbox { width: 100%; float: left; }
+.blogbox img { width: 280px; margin-bottom: 10px; }
+.textbox { width: 100%; float: left; margin-bottom: 10px; }
+.textbox h5,.textbox h5  { font-size: 16px; font-weight:500; color: #000; }
+.textbox h5:hover,
+.textbox h5:hover a { color:#000080; }
+.textbox p { font-size:16px; color: #717171; margin-bottom: 27px;   }
+.MoreBlogs{text-align: center; margin-bottom: 30px;}
+.MoreBlogs_text{width: 100px; height: 40px; border-radius: 100px; cursor: pointer; background-color: #000080; text-align: center; justify-self: center; padding: 0px 0px 0px 0px; color: #fff; font-size: 13px; text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif};
+
+/*///////////////////////////////27/07/20//////////////////////*/
+#blogContactUsContainer{}
+#connect-with-us-sec{	border: 1px solid #717171; padding: 20px;}
+
+#connect-with-us-sec h5{color: #000; font-weight: 600;}
+#connect-with-us-sec h6{color: #000;font-weight: 600;}
+#connect-with-us-sec i{color: #000;	padding: 10px 10px 10px 0px;font-size: 20px;}
+#connect-with-us-sec input{ margin:15px 0px;}
+#submit-btn{	margin-top: 30px;text-align: right;}
+#submit-btn a{padding: 10px 40px;color: #fff;text-decoration: none;	background-color: #000080;}
+
+
+/* Blog page end*/
+
+
+/* Find a Gym */
+
+.  { width: 100%; float: left; margin-top: 25px;border: 1px solid #000; }
+.mapcatoTop select {
+	border: 1px solid #ccc;
+	height: 50px;
+	margin-bottom: 25px;
+	padding-left: 10px;
+	padding-right:  0px;
+	border-radius: 25px;
+	margin-right: 10px;
+}
+.mapmn { width: 100%; float: left; margin: 0 0 50px 0; }
+#maptopLeft-upper-div{text-align: left;}
+.maptopLeft { width: 100%; max-width: 502px; height: 52px; border-radius: 30px; border: 1px solid #dadada; margin: 25px auto; } 
+.maptopLeft a { line-height: 50px; width: 50%; float: left; text-align: left; position: relative; color: #9a9a99; font-size: 16px;
+ font-weight: 400; padding-left: 20px; }
+.maptopLeft a:first-child:after {content: ''; position: absolute;background: #dadada; width: 1px; height: 36px; top: 7px; right: 0px; }
+.maptopLeft a:last-child  { color: #000080; }
+.scroll_left { width: 100%; float: left;  }
+.scroll_left p { color: #757575; font-size: 16px;  font-weight: 400; margin-bottom: 15px;  }
+.scroll_left ul{ width: 100%; min-height: 600px; max-height: 600px; overflow: scroll; margin-bottom: 40px;}
+.scroll_left ul li { width: 98%; margin-bottom: 10px; padding: 7px; border: 1px solid #cccccc; border-radius: 10px; min-height: 126px; }
+.scroll_left ul li h5 { font-size: 16px; font-weight: 500; color: #000080; line-height: 20px; }
+.scroll_left ul li span {  color: #5f5e5e; font-size: 13px;  font-weight: 500; }
+.scroll_left ul li p { color: #343434; font-size: 13px;  font-weight: 400; margin-bottom: 10px; line-height: 16px; }
+.scroll_left ul li img { float: left;  margin-right: 10px;}
+#gymlogo{border: 1px solid #cccccc; padding: 5px;}
+.countryList{width: 100%; cursor: pointer; margin-right: 0px;margin: auto 5px auto 0px;}
+.countryOption{ }
+.gymSearchInput{width: 180px;}
+/* Find a Gym end */
+
+
+/* gym owner */
+.bannermn.gymowner { background: url(../Images/gymowner.jpg) no-repeat; background-size: cover; min-height: 830px;
+    background-position: center top; }
+   
+    .gymow {margin: 170px auto 0 auto; width: 100%; max-width: 620px; text-align: center; min-height: 375px;  }
+    .gymow h1 { font-size: 60px; font-weight: 600; color: #fff;  }
+    .gymow h3 { font-size: 18px; font-weight: 400; color: #fff; padding: 0 5px;  }
+   .livcountry { width: 100%; text-align: center; display: block;}
+   .livcountry ul {}
+   .livcountry ul li { width: 33%; float: left; position: relative; font-size: 17px; font-weight: 400; line-height: 25px; color: #fff;
+   text-align: left; padding-left: 30px; }
+   .livcountry ul li:before { content: ''; background:url(../Images/headicon.png) no-repeat; width: 25px; height: 25px;
+   position: absolute; left: 0px; top:1px;
+     }
+   
+   .gymownbdy { width:100%; display: block; margin: 0px 0 0 0; }
+   .lefttextgym { width: 100%; float: left; padding-top: 90px; }
+   .lefttextgym h3 { font-size:32px; font-weight:600; color:#181818;  }
+   .lefttextgym p { font-size:17px; font-weight:400; color:#5e5e5e;  }
+   .picleft { margin: 0 0 150px 0;width: 100%; float: left; }
+   .picleft2 { margin: 0 0 30px 0;width: 100%; float: left; }
+   
+   .lefttextgym2 { width: 100%; float: left; }
+   .lefttextgym2 h3 { font-size:32px; font-weight:600; color:#181818;  }
+   .lefttextgym2 p { font-size:17px; font-weight:400; color:#5e5e5e;  }
+   .lefttextgym2 p span { font-weight:600; color: #181818;  }
+   .solutionmn { width: 100%; display: block; background:url(../Images/slutionbg.jpg) no-repeat; background-size: cover;
+   padding: 80px 0 88px 0; text-align: center; margin: 100px 0; background-position:center top;  }
+   
+   
+   .solutionmn h3 { font-size:48px; font-weight:500; color:#fff; margin-bottom: 50px;  }
+   .solutionmn h4 { font-size:32px; font-weight:600; color:#fff; margin-bottom: 15px;  }
+   .solutionmn h5 { font-size:25px; font-weight:500; color:#fff; margin: 30px 0 15px 0;  }
+   .solutionmn p { font-size:17px; font-weight:400; color:#fff;  }
+   .solutionmn a { width: 191px; margin: 40px auto; display: block; min-height: 53px; background: #fff; border-radius: 30px; font-size: 16px;
+   color: #000000; font-weight: #400; text-align: center; line-height: 35px; }
+   
+   .submitgym{ width: 100%; float: left;  }
+
+   .continn select { width: 47%; height: 60px; line-height: 30px; border: 1px solid rgb(231, 226, 226); float: left; border-radius: 5px;
+    margin: 10px 10px 20px 10px; padding:0  10px 0 35px; }
+   
+   /* end gym owner */
+    
+/* signin and signup page */
+
+.loginmain { width: 100%; max-width: 600px; margin: 0px auto; background: #fff; border-radius: 10px; padding: 30px; margin-bottom: 20px;  }
+
+.loginmain h3 { font-size:28px; font-weight:500; color:#000; text-align: center;}
+.socialicon { width: 100%; text-align: center;padding:20px 0 10px 0px; }
+.socialicon button { display: inline-block; padding: 3px; background-color: #fff;}
+.facebook{background-color: #fff;}
+.loginmain h5  { font-size:16px; font-weight:300; color:#969696; text-align: center; text-transform: uppercase; margin-top: 10px;}
+.logfrom { width: 100%; display: block; }
+
+.logfrom input[type="email"] {
+   width: 100%;
+   line-height: 60px;
+   border: 1px solid #e7e7e7;
+   float: left;
+   border-radius: 5px;
+   margin: 7px 0px;
+   padding: 0 10px 0 35px;
+   font-weight: 300;
+}
+.logfrom input[type="text"] {
+   width: 100%;
+   line-height: 60px;
+   border: 1px solid #e7e7e7;
+   float: left;
+   border-radius: 5px;
+   margin: 7px 0px 7px 0px;
+   padding: 0 10px 0 35px;
+   font-weight: 300;
+   text-align: left;
+   background-color: #fff;
+}
+
+
+
+.logfrom input[type="password"] {
+   width: 100%;
+   line-height: 60px;
+   border: 1px solid #e7e7e7;
+   float: left;
+   border-radius: 5px;
+   margin: 7px 0px 30px 0px;
+   padding: 0 10px 0 35px;
+   font-weight: 300;
+}
+
+ .logfrom input[type="Submit"] {
+   background: #000080;
+   color: #fff;
+   font-size: 18px;
+   width: 236px;
+   height: 65px;
+   font-weight: normal;
+   border-radius: 30px;
+   margin: 30px auto 30px auto; 
+   display: block;
+   text-transform: none;
+   box-shadow: none;
+}
+.logfrom p { font-size:18px; font-weight:400; color:#3b3b3b; text-align: right; line-height: 63px; float: left; width: 100%; }
+.logfrom h6 { font-size:18px; font-weight:400; color:#717171; text-align: center;  float: left; width: 100%; }
+.logfrom h6 span { color:#000000; font-weight: 500; }
+.logfrom input[type="checkbox"] { margin-right: 5px; }
+.logfrom.accountmn p { font-size:18px; font-weight:400; color:#717171; text-align: left; line-height: 63px; float: left; width: 100%; }
+#forgotPassword_id {cursor: pointer;}
+/* signin and signup page end */
+
+    
+    
+    .headerImage{background: url(../Images/inner_banner.png); background-size: cover;
+        background-position: center; min-height: 181px;}
+    #contactErrorText{ text-align: center; margin-bottom: 140px;}
+    
+
+    /* loader */
+
+    .loaderClass{}
+    
+    /*-----------------------------------------------------------------------*/
+    /*--------------------------- Responsive --------------------------------*/
+    /*-----------------------------------------------------------------------*/
+    
+    
+    @media(max-width:1199px) {
+        .continn {padding: 44px 50px;}
+        #cssmenu{position: absolute;top: 17px; right: 19%;}
+        .bannertxt { padding: 0 15px; }
+    .googleapp { padding: 0 15px; }
+    .row > h4 { padding-left: 15px; }
+    .tabmn a { margin: 0px 10px 10px 10px;}
+
+    
+    }
+    
+    @media(max-width:1024px) {
+      .bannertxt { padding: 0 15px; }
+    .googleapp { padding: 0 15px; }
+    .row > h4 { padding-left: 15px; }
+    /* .tabmn { width: 100%; display: block; margin: 15px 40px 45px 10px;padding-left: 20px;} */
+       .logo {width: 110px; margin-right: 40px;}
+       #cssmenu > ul > li {	padding: 5px 10px;}
+       #cssmenu > ul > li a { font-size: 18px;}
+       .bannertxt h1,h2 {	font-size: 40px; }
+       .iconBox2 {max-width: inherit; width: 29%; }
+       .locationrow { margin: 0px 0 0px 0; }
+       .howitbox1 {	max-width: 33%; margin-bottom: 70px;}
+       /*.howitbox1:nth-child(2) { max-width: 318px; }*/
+       .howitbox1 h5 { line-height: 30px; }
+       .allcenter {	margin-bottom: 60px;} 
+       .factbox { padding: 30px 20px 40px; }
+       .ourblogmn {	padding: 90px 0 50px 0; }
+       .ftcontact {	max-width: 330px; }
+       .marker1 p span, .call1 a span,.email1 a span { width: 40px; }
+       .ftabout { max-width: 190px; }
+       .ftcontact {	max-width: 296px;}
+       .call1 a { font-size: 16px; }
+       .email1 a { font-size: 16px; }
+       .stayconect {max-width: 250px; }
+      .howitwork h3,h2 {  font-size: 40px; }
+    
+    /* gym owner */
+      .picleft { margin: 0 0 100px 0;}
+
+      /* Payment check out page */
+      #plan-table h3{
+        text-align: center;
+      color: #fff;
+      padding: 15px 0px;
+      
+      width: 104%;
+      margin-left: -14px;
+  }
+
+    }
+    
+    
+    @media(max-width:991px) {
+      /* .Sticky{position: fixed; top: 0px; z-index: 11;} */
+      .bannertxt { padding: 0 15px; }
+    .googleapp { padding: 0 15px; }
+    .row > h4 { padding-left: 15px; }
+
+        .continn {padding: 44px 50px;}
+        .continn input[type="text"],
+        .continn input[type="tel"],
+        .continn select,
+        .continn input[type="email"] { width: 100%; margin: 7px 0px; }
+        .continn textarea {	width: 100%; margin: 10px 0px 20px 0px;} 
+        #cssmenu.small-screen #menu-button { font-size: 0px; }	
+        .menumain {	width: 121px; position: absolute; right: 0px; margin-top: 80px; z-index: 1; }
+        .logupin {position: absolute; right: 120px; } 
+        .afterLogupin {position: absolute; right: 120px; } 
+        #cssmenu > ul > li Link { line-height: 0px;} 
+        #cssmenu.small-screen ul {	margin-top: 12px;}
+        .iconmn {	padding: 50px 0 0px 0; }
+        .iconBox2 {	width: 28%; }
+       .ftcontact { max-width: 50%; margin-bottom: 20px;}
+       .ftabout { max-width: 50%; margin-bottom: 20px;}
+       .stayconect { max-width: 50%; margin-bottom: 20px;}
+       .ourfactmn h3,h2 {  font-size: 40px; }
+       .ourblogmn h1,h2 { font-size: 40px;} 
+       .howitwork {   margin: 0px 0 0 0; }
+       .howitbox1 { max-width: 100%; margin-bottom: 25px; }
+       .howitbox1 .hwleft2 { max-width: 100%; padding: 0px; }
+       .howitwork h3,h2 { font-size: 30px;}
+       #cssmenu { position: absolute; top: 86px;right: 5%;}
+       .dolbox h3 { font-size: 23px; font-weight: 500; color:#000080; line-height: 30px;}
+       .mapmn img { width: 100%;}
+   /* gym owner */
+       .gymownbdy { margin: 50px 0 0 0; }
+       .lefttextgym { padding-top: 0px; }
+       .picleft { margin: 30px 0 50px 0;   text-align: center; }
+       .picleft2 { text-align: center; }
+      /* signup & signin */
+      .logfrom input[type="Submit"] {width: 210px; padding-left: 5px; height: 63px; text-align: center;}
+      /* username set from local store */
+      #username{padding-right: 150px;}
+      /* header style */
+      #signout{right: 170px; top: 80px;}
+      /* Payment check out page */
+      #plan-table h3{
+        text-align: center;
+      color: #fff;
+      padding: 15px 0px;
+      
+      width: 103%;
+      margin-left: -14px;
+  }
+    }
+    
+    @media(max-width:767px) {
+      /* .Sticky{position: fixed; top: 0px; z-index: 100;} */
+      .bannertxt { padding: 0 15px; }
+    .googleapp { padding: 0 15px; }
+    .row > h4 { padding-left: 15px; }
+
+    .allcenter2 a {	margin: 10px;}
+    .bannertxt h1,h2 { font-size: 43px;}
+    .bannertxt h3 {font-size: 30px; }
+    .iconBox2 {width: 100%; margin: 30px 0px; }
+    .icon_box h4 { font-size: 25px; }
+    .ourfactmn h3,h2 { font-size: 25px; }
+    .ourfactmn p { font-size: 16px;}
+    .ourblogmn h1,h2 { font-size: 25px;} 
+    .ourblogmn h3 { font-size: 20px; line-height: 30px; }
+    .ourblogmn p {  font-size: 14px;  line-height: 22px; }
+    .social ul { text-align: center; width: 100%; }
+    .social {margin: 0 auto; float: inherit; }
+    .logupin{margin-right: 30px;}
+    .afterLogupin{margin-right: 30px;}
+    #cssmenu > ul > li Link { line-height: 0px;size: 14px;} 
+    #cssmenu.small-screen ul {	margin-top: 12px; }
+    
+/* gym owner */
+.gymow h1 { font-size: 30px; }
+.gymow { min-height: 200px; margin-bottom: 30px; }
+.livcountry ul li {  width: 100%; margin-bottom: 15px; }
+.bannermn.gymowner {  min-height: 650px; }
+.lefttextgym h3 {  font-size: 24px; }
+.lefttextgym2 h3 { font-size: 24px; font-weight: 400;}
+.livcountry {max-width: 400px; margin: 0 auto; }
+.lefttextgym2 p span { font-weight: 400; }   
+.solutionmn { margin: 50px 0; }
+.solutionmn h3 {font-size: 35px; font-weight: 400; margin-bottom: 18px;}
+.solutionmn h5 { font-size: 20px; font-weight: 400; margin: 20px 0 15px 0; }
+.solutionmn p {font-size: 16px; font-weight: 400; line-height: 20px; }
+.solutionmn a { margin: 20px auto 0;}
+
+/* signin and signup page */
+.loginmain {width: 96%; max-width: 100%;}
+.logfrom input[type="Submit"] {width: 200px; padding-left: 5px; height: 63px; text-align: center;}
+/* username set from local store */
+#username{padding-right: 170px;}
+/* header style */
+#signout{right: 200px; top: 80px;}
+    }
+    
+    
+    @media(max-width:568px) {
+    /* .Sticky{position: fixed; top: 0px; z-index: 100;} */
+    .bannertxt { padding: 0 15px; }
+    .bannertxt h1,h2 { font-size: 40px;}
+    .bannertxt h3 {font-size: 30px; }
+    .googleapp { padding: 0 15px; }
+    .row > h4 { padding-left: 15px; }
+    .logupin{margin-right: 25px;}
+    .afterLogupin{margin-right: 25px;}
+    #cssmenu > ul > li a { line-height: 0px;size: 14px;} 
+    #cssmenu.small-screen ul {	margin-top: 12px; }
+    /* find a gym */
+    /* .countryList{width: 180px;} */
+    .gymSearchInput{width: 170px;}
+    }
+     
+    @media(max-width:480px) {
+    /* .Sticky{position: fixed; top: 0px; z-index: 100;} */
+    .training-container > h4 { color: #fff; position: relative;  font-size: 22px; }
+    .ftabout { max-width: 190px; margin: 0 auto 20px auto; float: inherit; }
+    .ftcontact {width: 255px; padding: 0px; max-width: 100%; margin: 0 auto 20px auto; float: inherit; }
+    .ftcontact:after { content: ''; display: block; clear: both; }
+    .stayconect { max-width: 250px;   float: inherit;  margin: 0 auto; }
+    .footermn {  padding: 18px; }
+    .logupin{margin-right: 15px;}
+    .afterLogupin{margin-right: 15px;}
+    .menumain {border: 1px solid #0000;	width: 121px; position: absolute; right: 10px;top: 50px; margin-top: 80px; z-index: 1; }
+    .bannertxt h1,h2 { font-size: 37px;}
+    .bannertxt h3 {font-size: 28px; }
+    #cssmenu > ul > li a { line-height: 0px;size: 14px;} 
+    #cssmenu.small-screen ul {	margin-top: 10px; }
+    /* Find a Gym */
+
+.scroll_left ul li h5 { font-size: 18px; font-weight: 400;  line-height: 24px; }
+.scroll_left ul li img {float: none;}
+.scroll_left ul li { text-align: center; }
+/* .countryList{width: 150px;} */
+/* signin and signup page */
+.loginmain {  padding: 50px 25px; }
+.logfrom input[type="Submit"] {width: 170px; padding-left: 5px; height: 63px; text-align: center;}
+/* username set from local store */
+#username{position: absolute; top: 85px; right: 20px; padding-right: 70px;}
+    }
+    
+    
+    @media(max-width:479px) {
+      .homeSliderImage{width: 100%; height: 680px;}
+      .creditPlanBox_container{margin: 10px 50px 10px 50px;}
+    .Sticky{position: fixed; top: 0px; z-index: 100;}
+    .continn { padding: 44px 20px; }
+    .continn h4 { font-size: 24px; } 
+    .logupin {right: 14px; margin-top: 0px; }
+    .afterLogupin {right: 14px; margin-top: 0px; margin-right: 0px; }
+    .menumain { margin-top: 40px; }
+    .training-container > h4 { color: #fff; position: relative;  font-size: 22px; }
+    .logupin{margin-right: 0px;}
+    .bannertxt h1,h2 { font-size: 37px;}
+    .bannertxt h3 {font-size: 28px; }
+    #cssmenu > ul > li a { line-height: 0px;size: 14px;} 
+    #cssmenu.small-screen ul {	margin-top: 10px; }
+    .logfrom input[type="Submit"] {width: 170px; padding-left: 5px; height: 63px; text-align: center;}
+    /* header style */
+    #signout{right: 70px; top: 55px;}
+    /* find a gym */
+    /* .countryList{width: 120px;} */
+    .gymSearchInput{width: 100px;}
+    }
+
+    @media(max-width:321px){
+      .homeSliderImage{width: 100%; height: 710px;}
+    }
+
+
+    #firstcontainer_field{padding-bottom: 30px; padding-top: 0px;}
+    .visitor-exprt-text{}
+    .howit-work{}
+    
+    #howitwork-textcontainer{text-align: center;}
+    #simpleText-container{text-align: center;}
+   
+
+
+
+    /* Design by Rahul */
+
+
+
+     *{
+      margin: 0px;
+      padding: 0px;
+  }
+  body{
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;  
+  }
+  #profile-body{
+    background-color: #f0f0f0;
+  }
+  img{
+    border-radius: 10px;
+  }
+  /*/////////////////////////Home Page Css///////////////////////////*/
+  .container {
+      max-width: 1200px !important;
+  }
+  #bannar-area p{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-weight: 400;
+  }
+  .share-icon i{
+    padding-top: 10px;
+     font-size: 20px;
+     float: right;
+     color: #818181;
+  }
+  #bannar-area h6{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-weight: 500;
+  }
+  #bannar-area h6 span{
+    font-weight: 300
+  }
+  #bannar-area img{
+    width: 100%;
+  }
+  #bannar-area h3{
+    font-size: 18px;
+    padding: 10px 0px;
+    font-weight: 300;
+  }
+  #relatedblog h2{
+    margin-top: 60px;
+    margin-bottom: 20px;
+  }
+  #relatedblog h6{
+    font-weight: 300
+  }
+  #app-logo img{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .card {
+       border: 0px solid rgba(0,0,0,0)!important;  
+  }
+  #size img{
+    width: 93%;
+  }
+  
+  /*/////////////////////////Profile Page Css///////////////////////////*/
+  /* #man-pic img{
+      width: 20%;
+      margin-top: 30px;
+  
+  }
+  #profile-from h4{
+      margin-top: 15px;
+      margin-bottom: 30px;
+  }
+  .app-logo{
+    margin-top: 150px;
+    background-color: #fff;
+  }
+  #save-btn{
+    margin-top: 60px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  #save-btn a{
+    background-color: #000080;
+    padding: 20px 70px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    border-radius: 30px;
+  }
+  #profile-banner h2{
+      margin-top: 40px;
+      margin-bottom: 40px;
+      font-size: 40px;
+  }
+  #profile-banner ul li{
+    list-style: none;
+    padding:20px 20px;
+  }
+  #profile-banner ul {
+    margin-top: 20px;
+  }
+  #profile-banner ul li a{
+     text-decoration: none;
+     color: #000;
+     font-size: 22px;
+  }
+  #profile-banner ul li a i{
+    margin-right: 20px;
+  }
+  #profile-banner ul li:hover{
+    background-color: #000080;
+    transition: 0.3s;
+    cursor: pointer;
+    color: #ffffff;
+  }
+  .ListItemActive{
+    background-color: #000080;
+    color: #ffffff;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  /* #profile-banner ul li a:hover{
+    color: #ffffff;
+    transition: 0.3s;
+  } */
+  .dashbord-menu{
+    background-color: #fff;
+    border-right: 15px solid #f0f0f0;
+  
+  }
+  .dashbord-menu-two{
+    background-color: #fff;
+    border-left: 15px solid #f0f0f0;
+  }
+  #profile-from input{
+    padding-top: 10 40px;
+  }
+   */
+  
+  /*///////////////////////// Pricing Page Css///////////////////////////*/
+  
+  
+  #pricing-banner{
+    margin-top: 50px;
+    background-color: #ffffff;
+  }
+  #pricing-banner h2{
+    font-size: 37px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+  }
+  /*/////////////////////////////29/06/2020///////////////*/
+  /* #box-sadow{
+    padding: 20px 10px;
+    margin-right: 40px;
+    margin-bottom: 100px;
+    -webkit-box-shadow: 1px 12px 27px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 12px 27px -4px rgba(0,0,0,0.75);
+    box-shadow: 1px 12px 27px -4px rgba(0,0,0,0.75);
+    border-radius: 15px;
+  } */
+  #box-sadow{
+    padding: 20px 10px;
+    margin-right: 40px;
+    margin-bottom: 100px;
+    -webkit-box-shadow: 1px 5px 17px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 5px 17px -4px rgba(0,0,0,0.75);
+    box-shadow: 1px 5px 17px -4px rgba(0,0,0,0.75);
+    border-radius: 15px;
+    border: 1px solid #616161;
+  }
+  /*/////////////////////////////29/06/2020///////////////*/
+  #box-sadow img{
+    padding-top: 20px;
+  }
+  .pad{
+    padding-right: 20px;
+  }
+  .text-shadow-pad{
+    padding: 50px
+  }
+  #adjust{
+    margin-left: 35px;
+  }
+  #box-sadow a{
+    text-decoration: none;
+  }
+  #box-sadow h5 a{
+    color: #000;
+    font-size: 18px;
+  }
+  
+  /*//////////////////////////////privacypolicy-css///////////////////*/
+  
+  
+  #privacypolicy-banner{
+    margin-top: 50px;
+    background-color: #ffffff;
+  }
+  #privacypolicy-banner h2{
+      font-size: 40px;
+      padding-top: 50px;
+      padding-bottom: 40px;
+      color: #000080;
+      padding-left: 20px;
+  }
+  #privacypolicy-banner h3{
+    font-size: 28px;
+    padding: 0px 40px;
+  }
+  #privacypolicy-banner p{
+    font-size: 18px;
+    padding: 20px 40px;
+    font-weight: 500;
+    color: #919191;
+  }
+  .orem{
+    margin-bottom: 130px;
+  }
+  
+  
+  #gym_details_banner{
+    margin-top: 35px;
+    background-color: #ffffff;
+  }
+  .gym-b img{
+    width: 103%;
+  }
+  /*//////////////////////////////////gym_details css/////////////////*/
+  .todayTime{margin-top: 5px;}
+  #find_a_activity input{
+      margin-top: 35px;
+      border-radius: 50px;
+      padding: 12px 105px 12px 40px;
+      outline: none;
+  }
+  #gym-belowbaner{
+    background-color: #fff;
+  }
+  #neon-location{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color:#fff;
+    border-left: 18px solid #fff;
+    border-right: 10px solid #fff;
+    border: 1px solid #000;
+  }
+  #neon-location h2{
+    color: #000080;
+    font-size: 38px;
+    padding-top: 30px;
+  }
+  #neon-location p{
+    color: #919191;
+    font-size: 20px;
+  }
+  #neon-location img{
+    margin-top: 10px;
+    padding-bottom: 15px;
+  }
+  #gym-belowbaner p{
+    font-size: 18px;
+    color: #919191;
+  }
+  #time-box {
+    margin-top: 10px;
+    border: 1px solid #000;
+  }
+  .time-box {
+    margin-top: 10px;
+  }
+  #time-box h5{
+    font-size: 22px;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-left: 15px;
+  }
+  #time-box h5 span{
+    color: #818181;
+    font-weight: 400
+  }
+  #passs_code{
+    margin-top: 30px;
+    background-color: #000080;
+    color: #fff;
+    padding: 15px 40px 15px 15px;
+  }
+  #time-box h6{
+    margin-top: 20px;
+      font-size: 20px;
+      text-align: center;
+  }
+  .live_time span{
+    background-color: #000
+  }
+  #time-box ul{
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  #time-box ul li{
+    margin-top: 20px;
+    float: left;
+    list-style: none;
+    padding: 14px 14px;
+    font-size: 40px;
+    background-image: linear-gradient(to right,#140047 , #00186f);
+    color: #fff;
+  }
+  #time-box ul li small{
+    margin-top: -20px;
+    font-size: 15px;
+  }
+  #opening-h{
+    background-color: #fff;
+  }
+  div#app-logo {
+      background-color: #fff;
+  }
+  #opening-h h3{
+    color: #818181;
+    font-size: 30px;
+    margin-top: 50px;
+  }
+  #today i{
+      font-size: 34px;
+      margin-top: 20px;
+  }
+  #today h5{
+    margin-top: 20px;
+    font-weight: 600;
+  }
+   #span{
+    margin-top: 40px;
+    color: #b5b5b5;
+    font-weight: 200;
+    margin-bottom: 30px;
+    font-size: 18px;
+  }
+  .show-schedule a{
+    border: 1px solid #818181;
+    padding: 12px 45px;
+    border-radius: 30px;
+    text-decoration: none;
+  }
+  #payment-option{
+    background-color: #fff;
+    margin-bottom: 50px;
+  }
+  #time-btn-text{
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+  }
+  #time-btn{
+    border-radius: 20px;
+    margin: 0px 4px 0px 0px;
+    padding: 10px 5px 10px 5px;
+    line-height: 20px;
+    
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    background-image: linear-gradient(to right,#140047 , #00186f);
+  }
+  /*/////////////////////////bannar-area-check-out/////////////////////*/
+  #bannar-area-check-out span{ 
+      padding: 0px 50px 0px 0px;
+  }
+  #bannar-area-check-out i{ 
+    padding: 0px 5px 0px 5px;
+  }
+  #bannar-area-check-out h3{
+    font-size: 33px;
+    color: #000080;
+  }
+  #bannar-area-check-out h2 span{
+    font-size: 25px;
+    text-align: center;
+    color: #000080;
+  }
+  #bannar-area-check-out h3{
+     text-align: center;
+  }
+  /*/////////////////////////////29/06/2020///////////////*/
+  #plan-table h3{
+        text-align: center;
+      color: #fff;
+      padding: 15px 0px;
+      /* background-image: linear-gradient(to right,#140047 , #00186f); */
+      background-color: #000080;
+      font-weight: 600;
+      border-top-right-radius: 20px;
+      border-top-left-radius: 20px;
+      width: 103%;
+      margin-left: -14px;
+  }
+  /*/////////////////////////////29/06/2020///////////////*/
+  #plan-box-on{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    -webkit-box-shadow: 1px 12px 27px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 12px 27px -4px rgba(0,0,0,0.75);
+  box-shadow: 1px 12px 27px -4px rgba(0,0,0,0.75);
+  border-radius: 20px;
+  width: 90%;
+  }
+  #plan-box-on h4{
+    padding: 10px 30px;
+  }
+  #bannar-area-check-out h6{
+    margin:25px 0px;
+    font-size: 18px;
+  }
+  #bannar-area-check-out h6 span{
+    color: #828181;
+  }
+  #bannar-area-check-out h3 i{
+    margin-top: 60px;
+  }
+  #plus-mi{
+    border: 1px solid #818181;
+    padding: 10px 0px;
+    text-align: right;
+  }
+  #plus-mi b{
+    text-decoration: none;
+  }
+  .confirmation {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  .confirmation button{
+    /* background-image: linear-gradient(to right,#140047 , #00186f); */
+    background-color: #000080;
+    color: #fff;
+    padding: 15px 50px;
+    font-size: 25px;
+    border-radius: 50px;
+    text-decoration: none;
+  }
+  
+  
+  /*.//////////////////////bannar_checkout_payment////////////////////////*/
+  
+  #bannar_checkout_payment span{ 
+     padding: 0px 77px 0px 0px;
+  }
+  #bannar_checkout_payment i{ 
+    padding: 0px 5px 0px 5px;
+  }
+  #bannar_checkout_payment h3{
+    font-size: 33px;
+    color: #000080;
+  }
+  #bannar_checkout_payment h2 span{
+    font-size: 25px;
+    text-align: center;
+    color: #000080;
+  }
+  #bannar_checkout_payment h3{
+     text-align: center;
+  }
+  #checkout-option{
+    background-color: #fff;
+    margin-bottom: 50px;
+    padding: 50px 0px;
+  }
+  #bannar_checkout_payment h6{
+    padding: 20px 0px;
+    font-size: 18px;
+  }
+  #bannar_checkout_payment h6 span{
+    color: #818181;
+  }
+  
+  .credits-box{
+      margin-top: 50px;
+      padding: 30px 10px;
+      -webkit-box-shadow: 1px 6px 18px -5px rgba(0,0,0,0.75);
+      -moz-box-shadow: 1px 6px 18px -5px rgba(0,0,0,0.75);
+      box-shadow: 1px 6px 18px -5px rgba(0,0,0,0.75);
+      border-radius: 10px;
+  }
+  .credits-box img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+  }
+  .credits-box h4{
+    font-size: 30px;
+    color: #616161;
+  }
+  .credits-box h5{
+    padding-top: 30px;
+    font-size: 30px;
+    color: #616161;
+  }
+  .credits-box p{
+    font-size: 20px;
+    color: #616161;
+    padding-top: 10px;
+  }
+  .credits-box a{
+    text-decoration: none;
+  }
+  #payment-card h3{
+      text-align: left;
+      color: #898181;
+      margin-top: 30px;
+      padding: 5px 0px;
+  }
+  #payment-card input{
+    border: none;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  #payment-card p{
+    color: #f0f0f0;
+    font-size: 18px;
+  }
+  #c-bg-o{
+     background-image: linear-gradient(to right,#140047 , #00186f);
+     color: #fff;
+     border-right: 5px solid #fff;
+     border-radius: 10px;
+     padding: 20px 20px;
+  }
+  #c-bg-t{
+     background-image: linear-gradient(to right,#146161 , #616161);
+     color: #fff;
+     border-left: 5px solid #fff;
+     border-radius: 10px;
+     padding: 20px 20px;
+  }
+  #apple-box{
+    border-radius: 10px;
+    margin: 20px 0px;
+    -webkit-box-shadow: -1px 7px 16px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 7px 16px -6px rgba(0,0,0,0.75);
+    box-shadow: -1px 7px 16px -6px rgba(0,0,0,0.75);
+  }
+  #apple-box p{
+    color: #000;
+    padding-top: 15px;
+    font-size: 25px;
+    font-weight: 600;
+  }
+  #apple-box i{
+    font-size:30px;
+    padding-top: 20px;
+  }
+  #c-p-c-i{
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px 50px 10px 10px;
+    margin:20px 0px; 
+  }
+  .cpc-next{
+    text-align: center;
+    margin: 50px 0px;
+  }
+  .cpc-next a{
+     background-image: linear-gradient(to right,#140047 , #00186f);
+     padding:10px 70px;
+     text-decoration: none;
+     color: #fff;
+     font-size: 22px;
+     border-radius:30px;
+  }
+  
+  
+  /*/////////////////////Responsive (30/06/2020)//////////////////////////////////////*/
+
+  @media only screen and (min-width:300px) and (max-width:400px) 
+  {
+    #bannar-area-check-out span{ 
+      padding: 0px 10px 0px 10px;
+  } 
+    #bannar-area-check-out h2 span{
+      font-size: 11px;
+      text-align: left;
+      
+      color: #000080;
+       /* margin-left: 10px; */
+      /* margin-top: 30px;  */
+  }
+    #plan-table h3 {
+      text-align: center;
+      color: #fff;
+      padding: 15px 0px;
+      background-image: linear-gradient(to right,#140047 , #00186f);
+      font-weight: 600;
+      border-top-right-radius: 20px;
+      border-top-left-radius: 20px;
+       width: 110.5%; 
+       margin-left: -15px; 
+  }
+  }
+  @media only screen and (min-width:400px) and (max-width:450px) 
+  {
+    #bannar-area-check-out span{ 
+      padding: 0px 10px 0px 10px;
+  } 
+    #bannar-area-check-out h2 span{
+      font-size: 11px;
+      text-align: left;
+      
+      color: #000080;
+       /* margin-left: 10px; */
+      /* margin-top: 30px;  */
+  }
+    #plan-table h3 {
+      text-align: center;
+      color: #fff;
+      padding: 15px 0px;
+      background-image: linear-gradient(to right,#140047 , #00186f);
+      font-weight: 600;
+      border-top-right-radius: 20px;
+      border-top-left-radius: 20px;
+       width: 109.5%; 
+       margin-left: -15px; 
+  }
+  }
+  @media only screen and (min-width:450px) and (max-width:500px) 
+  {
+    #bannar-area-check-out span{ 
+      padding: 0px 10px 0px 10px;
+  } 
+    #bannar-area-check-out h2 span{
+      font-size: 11px;
+      text-align: left;
+      
+      color: #000080;
+       /* margin-left: 10px; */
+      /* margin-top: 30px;  */
+  }
+    #plan-table h3 {
+      text-align: center;
+      color: #fff;
+      padding: 15px 0px;
+      background-image: linear-gradient(to right,#140047 , #00186f);
+      font-weight: 600;
+      border-top-right-radius: 20px;
+      border-top-left-radius: 20px;
+       width: 107.9%; 
+       margin-left: -15px; 
+  }
+  }
+  
+  @media only screen and (min-width:300px) and (max-width:500px) 
+  {
+    html, body {width: auto!important; overflow-x: hidden!important}
+                  /*///////////For Index Page///////*/
+  #bannar-area h2{
+    font-size: 30px;
+  }
+  #bannar-area p {
+      padding-top: 15px;
+      padding-bottom: 0px;
+      font-weight: 400;
+      text-align: justify;
+  }
+  #relatedblog h2 {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-size: 30px;
+  }
+  .card-title {
+      margin-bottom: .75rem;
+      font-size: 24px;
+  }
+  #app-logo img {
+      margin-top: 50px;
+      margin-bottom: 70px;
+  }
+  
+                     /*///////////For check-out order Page///////*/
+                     #bannar-area-check-out i{ 
+                      padding: 0px 0px 0px 0px;
+                    } 
+                    /* #bannar-area-check-out span{ 
+                      padding: 0px 30px 0px 0px;
+                  }                */
+  #bannar-area-check-out h3 {
+      text-align: center;
+      font-size: 25px;
+  }
+  #bannar-area-check-out h2 span{
+      font-size: 14px;
+      text-align: center;
+      color: #000080;
+      /* margin-left: 60px;
+      margin-top: 30px; */
+  }
+  /* #plan-table h3 {
+      text-align: center;
+      color: #fff;
+      padding: 15px 0px;
+      background-image: linear-gradient(to right,#140047 , #00186f);
+      font-weight: 600;
+      border-top-right-radius: 20px;
+      border-top-left-radius: 20px;
+       width: 107.9%; 
+       margin-left: -15px; 
+  } */
+  #plan-box-on {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      -webkit-box-shadow: 1px 12px 27px -4px rgba(0,0,0,0.75);
+      -moz-box-shadow: 1px 12px 27px -4px rgba(0,0,0,0.75);
+      box-shadow: 1px 12px 27px -4px rgba(0,0,0,0.75);
+      border-radius: 20px;
+      width: 85%;
+  }
+  #plan-box-on h4 {
+      padding: 10px 30px;
+      font-size: 14px;
+  }
+  .confirmation a {
+      background-image: linear-gradient(to right,#140047 , #00186f);
+      color: #fff;
+      padding: 15px 50px;
+      font-size: 20px;
+      border-radius: 50px;
+      text-decoration: none;
+  }
+  
+  
+               /*///////////For check-out Payment Cared Page///////*/
+  
+  
+  
+     #c-bg-o {
+      background-image: linear-gradient(to right,#140047 , #00186f);
+      color: #fff;
+      border-right: 5px solid #fff;
+      border-radius: 30px;
+      padding: 20px 20px;
+      border: 20px solid #fff;
+     }
+      #c-bg-t {
+      background-image: linear-gradient(to right,#146161 , #616161);
+      color: #fff;
+      border-right: 5px solid #fff;
+      border-radius: 30px;
+      padding: 20px 20px;
+      border: 20px solid #fff;
+     }     
+     #payment-card input {
+      border: none;
+      margin-top: 0px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      margin-left: 0px;
+     }
+     #apple-box p {
+      color: #000;
+      padding-top: 15px;
+      font-size: 24px;
+      font-weight: 600;
+  }
+  
+     /*///////////For check-out Payment Option Page///////*/
+     #bannar_checkout_payment span{
+      padding: 0px 10px 0px 10px;
+    }
+    #bannar_checkout_payment i{
+      font-size: 20px;
+    }
+    #bannar_checkout_payment h2 span{
+      font-size: 16px;
+      text-align: center;
+      color: #000080;
+    }
+     /* #bannar_checkout_payment i{ 
+      padding: 0px 5px 0px 5px;
+    } */
+     #bannar_checkout_payment h3 {
+      text-align: center;
+      font-size: 18px;
+    }
+    #bannar_checkout_payment h2 {
+      font-size: 25px;
+      text-align: center;
+      color: #000080;
+      /* margin-top: 30px;
+      margin-left: 81px; */
+  }
+  .credits-box h4 {
+      font-size: 22px;
+      color: #616161;
+  }
+  
+        /*//////////////For gym detail Page////////////////////////*/
+  
+  #find_a_activity input {
+      margin-top: 35px;
+      border-radius: 50px;
+      padding: 12px 105px 12px 40px;
+      outline: none;
+      margin-left: 0px;
+  }
+  #neon-location img {
+      margin-top: 18px;
+      padding-bottom: 15px;
+      width: 120%;
+  }
+  #neon-location h2 {
+      color: #fff;
+      font-size: 20px;
+      padding-top: 16px;
+  }
+  #gym-belowbaner p {
+      font-size: 16px;
+      color: #919191;
+  }
+  #time-box ul li {
+      margin-top: 20px;
+      float: left;
+      list-style: none;
+      padding: 13px 13px;
+      font-size: 40px;
+      background-image: linear-gradient(to right,#140047 , #00186f);
+      color: #fff;
+  }
+  .col-lg-7.show-schedule {
+      margin-bottom: 50px;
+  }
+  #opening-h {
+      background-color: #fff;
+      text-align: center;
+  }
+      /*//////////////For Pricing detail Page////////////////////////*/
+  
+  #box-sadow img {
+      padding-top: 20px;
+      width: 80%;
+      margin: auto;
+      height: auto;
+      display: block;
+  }
+  .mo-d-r{
+    text-align: center;
+  }
+  #pricing-banner h2 {
+      font-size: 35px;
+      padding-top: 50px;
+      padding-bottom: 40px;
+      color: #616161;
+      padding-left: 20px;
+  }
+  #privacypolicy-banner h2 {
+      font-size: 33px;
+      padding-top: 50px;
+      padding-bottom: 40px;
+      color: #000080;
+      padding-left: 20px;
+  }
+  
+  }
+
+  @media only screen and (min-width:500px) and (max-width:550px) 
+  {
+    #bannar_checkout_payment span{
+      padding: 0px 30px 0px 30px;
+    }
+    #bannar_checkout_payment i{
+      font-size: 25px;
+    }
+    #bannar_checkout_payment h2 span{
+      font-size: 18px;
+      text-align: center;
+      color: #000080;
+    }
+    #bannar-area-check-out h2 span{
+      font-size: 15px;
+      /* text-align: center; */
+      color: #000080;
+    }
+  }
+
+  @media only screen and (min-width:550px) and (max-width:600px) 
+  {
+    #bannar_checkout_payment span{
+      padding: 0px 30px 0px 30px;
+    }
+    #bannar_checkout_payment h2 span{
+      font-size: 18px;
+      text-align: center;
+      color: #000080;
+    }
+    #bannar-area-check-out h2 span{
+      font-size: 17px;
+      /* text-align: center; */
+      color: #000080;
+    }
+  }
+  
+  @media only screen and (min-width:600px) and (max-width:700px) 
+  {
+    #bannar_checkout_payment span{
+      padding: 0px 40px 0px 40px;
+    }
+    #bannar_checkout_payment h2 span{
+      font-size: 18px;
+      text-align: center;
+      color: #000080;
+    }
+
+    #bannar-area-check-out h2 span {
+      font-size: 20px;
+      text-align: center;
+      color: #000080;
+    }
+  }
+
+  @media only screen and (min-width:700px) and (max-width:800px) 
+  {
+    #bannar_checkout_payment span{
+      padding: 0px 50px 0px 50px;
+    }
+    #bannar_checkout_payment h2{
+      padding-left: 20px;
+    }
+    #bannar_checkout_payment h2 span{
+      font-size: 20px;
+      text-align: center;
+      color: #000080;
+    }
+
+    #bannar-area-check-out h2 span{
+      font-size: 25px;
+      text-align: center;
+      color: #000080;
+    }
+  }
+  
+  @media only screen and (min-width:500px) and (max-width:800px) 
+  {
+    html, body {width: auto!important; overflow-x: hidden!important}
+                       /*///////////For Index Page///////*/
+  #size img {
+      width: 100%;
+  }
+  #bannar-area p {
+      padding-top: 0px;
+      padding-bottom: 0px;
+      font-weight: 400;
+      text-align: justify;
+  }
+  #app-logo img {
+      padding: 50px 0px;
+      height: auto;
+      margin: auto;
+      display: block;
+  }
+                        /*///////////For check-out order Page///////*/
+
+  
+  
+  #plan-box-on {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      -webkit-box-shadow: 1px 12px 27px -4px rgba(0,0,0,0.75);
+      -moz-box-shadow: 1px 12px 27px -4px rgba(0,0,0,0.75);
+      box-shadow: 1px 12px 27px -4px rgba(0,0,0,0.75);
+      border-radius: 23px;
+      width: 90%;
+  }
+  #plan-table h3 {
+      text-align: center;
+      color: #fff;
+      padding: 15px 0px;
+      background-color: #000080;
+      font-weight: 600;
+      border-top-right-radius: 20px;
+      border-top-left-radius: 20px;
+      width: 105%;
+      margin-left: -15px;
+  }
+  #bannar-area-check-out h2 {
+      font-size: 25px;
+      text-align: center;
+      color: #000080;
+      margin-left: 42px;
+  }
+  
+        /*///////////For check-out Payment Page///////*/
+  
+        
+
+    #c-bg-o {
+      background-image: linear-gradient(to right,#140047 , #00186f);
+      color: #fff;
+      border-right: 5px solid #fff;
+      border-radius: 30px;
+      padding: 20px 20px;
+      border: 20px solid #fff;
+     }
+      #c-bg-t {
+      background-image: linear-gradient(to right,#146161 , #616161);
+      color: #fff;
+      border-right: 5px solid #fff;
+      border-radius: 30px;
+      padding: 20px 20px;
+      border: 20px solid #fff;
+     }  
+  #payment-card input {
+      border: none;
+      margin-top: 0px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      margin-left: 0px;
+      width: 100%;
+  }
+  
+         /*//////////////For gym detail Page////////////////////////*/
+  #time-box ul li {
+      margin-top: 20px;
+      float: left;
+      list-style: none;
+      padding: 20px 34px;
+      font-size: 40px;
+      background-image: linear-gradient(to right,#140047 , #00186f);
+      color: #fff;
+  }
+  #time-box h5 {
+      font-size: 22px;
+      font-weight: 700;
+      padding-top: 30px;
+      padding-left: 15px;
+      text-align: center;
+  }
+  #passs_code {
+      margin-top: 30px;
+      background-color: #000080;
+      color: #fff;
+      text-align: center;
+      padding: 15px 40px 15px 15px;
+  }
+  #opening-h {
+      background-color: #fff;
+      text-align: center;
+  }
+  .col-lg-7.show-schedule {
+      margin-bottom: 50px;
+  }
+  
+  
+     /*//////////////For Pricing detail Page////////////////////////*/
+  #box-sadow img {
+      padding-top: 20px;
+      width:80%;
+      margin: auto;
+      height: auto;
+      display: block;
+  }
+  .mo-d-r{
+    text-align: center;
+  }
+  #pricing-banner h2 {
+      font-size: 35px;
+      padding-top: 50px;
+      padding-bottom: 40px;
+      color: #616161;
+      padding-left: 20px;
+  }
+  
+  }
+  @media only screen and (min-width:800px) and (max-width:1000px) 
+  {
+    #plan-table h3{
+      text-align: center;
+    color: #fff;
+    padding: 15px 0px;
+    /* background-image: linear-gradient(to right,#140047 , #00186f); */
+    background-color: #000080;
+    font-weight: 600;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 104%;
+    margin-left: -15px;
+}
+  }
+  @media only screen and (min-width:1000px) and (max-width:1125px) 
+  {
+    #plan-table h3{
+      text-align: center;
+    color: #fff;
+    padding: 15px 0px;
+    /* background-image: linear-gradient(to right,#140047 , #00186f); */
+    background-color: #000080;
+    font-weight: 600;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 103.5%;
+    margin-left: -15px;
+}
+  }

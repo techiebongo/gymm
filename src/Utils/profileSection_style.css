@@ -1,0 +1,1033 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;  
+}
+#profile-body{
+  background-color: #f0f0f0;
+}
+img{
+  border-radius: 10px;
+}
+.container {
+    max-width: 1200px !important;
+}
+#app-logo img{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/*/////////////////////////Profile Page Css///////////////////////////*/
+#man-pic img{
+    /* width: 120px; */
+    /* height: 100px; */
+    margin-top: 30px;
+    /* border-radius: 50px; */
+    /* border: 1px solid #000000; */
+}
+#profile-from h4{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.app-logo{
+  margin-top: 150px;
+  background-color: #fff;
+}
+#save-btn{
+  margin-top: 30px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+#save-btn a{
+  background-color:#000080;
+  padding: 20px 70px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 22px;
+  border-radius: 30px;
+}
+#profile-banner h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#profile-banner ul li{
+  list-style: none;
+  padding:20px 20px;
+}
+#profile-banner ul {
+  margin-top: 20px;
+}
+#profile-banner ul li a{
+   text-decoration: none;
+   color: #000;
+   font-size: 22px;
+}
+#profile-banner ul li a i{
+  margin-right: 20px;
+}
+#man-pic i{
+  color: #000080;
+}
+.select-form {
+  border-radius: 12px !important;
+  border: 1px solid #D6EAF8 !important;
+  padding: 10px 10px 10px 25px;
+  width: 100%;
+}
+/* ///////// 20/07/2020 ///////// */
+.fa-cameraIcon{margin-top: 100px;}
+.input-formControl{padding: 0 0px 0 10px;}
+.form-control-o {
+  border-radius: 12px !important;
+  border: 1px solid #D6EAF8 !important;
+  padding: 20px 0px 20px 25px;
+}
+.form-control-password{
+  border-radius: 12px !important;
+  border: 1px solid #D6EAF8 !important;
+  padding: 9px 0px 9px 25px;
+}
+/*////////////////////////02/07/2020//////////////////*/
+
+#profile-banner ul li:hover{
+  background-color: #000080;
+  transition: 0.3s;
+  cursor: pointer;
+  color: #ffffff;
+}
+#profile-banner ul li a:hover{
+  color: #ffffff;
+  transition: 0.3s;
+}
+#mob-menu-side i{
+  display: none;
+}
+.ListItemActive{
+  background-color: #000080;
+  color: #ffffff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+/*////////////////////////28/06/2020//////////////////*/
+.dashbord-menu{
+  background-color: #fff;
+  border-right: 15px solid #f0f0f0;
+
+}
+.dashbord-menu-two{
+  background-color: #fff;
+  border-left: 15px solid #f0f0f0;
+}
+#profile-from input{
+  padding-top: 10 40px;
+}
+#change-pass {
+  margin-top: 22px;
+}
+#change-pass a{
+  border: 1px solid #818181;
+  padding: 7px 30px;
+  border-radius: 7px;
+  text-decoration: none;
+  color: #616161;
+}
+
+#dashbord-menu-suggest{
+  background-color: #fff;
+}
+#dashbord-menu-suggest h2{
+  font-size: 30px;
+  color: #656161;
+}
+#dashbord-menu-suggest input{
+  margin-top: -5px;
+  padding: 20px 640px 20px 50px;
+}
+iframe{
+  margin-top: 20px;
+  border-radius: 10px;
+}
+#suggest-btn-g{
+  text-align: center;
+  margin-top: 65px;
+}
+#suggest-btn-g a{
+  padding: 20px 50px;
+  background-image: linear-gradient(to right,#140047 , #00186f);
+  color: #fff;
+  border-radius: 40px;
+  font-size: 25px;
+  text-decoration: none;
+}
+#dashbord-invite-fnd{
+  background-color: #fff;
+}
+#dashbord-invite-fnd h2{
+  font-size: 30px;
+  color: #656161;
+  padding-left: 10px;
+}
+#s img{
+  -webkit-box-shadow: 1px 6px 18px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 6px 18px -5px rgba(0,0,0,0.75);
+    box-shadow: 1px 6px 18px -5px rgba(0,0,0,0.75);
+    margin-left: 10px;
+    transition: .3s;
+}
+#s img:hover{
+    -webkit-box-shadow: 1px 3px 9px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 3px 9px -5px rgba(0,0,0,0.75);
+    box-shadow: 1px 3px 9px -5px rgba(0,0,0,0.75);
+    margin-left: 10px;
+     transform: rotate(5deg);
+     transition: .3s;
+}
+#s p{
+   margin-top: 20px;
+   font-size: 22px;
+   text-align: center;
+}
+#confirm{
+  margin:30px 0px;
+}
+#confirm a{
+  padding: 15px 50px;
+  background-image: linear-gradient(to right,#140047 , #00186f);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px;
+  font-size: 22px;
+  font-weight: 600;
+}
+#five-creditss input{
+  padding:20px 500px 20px 60px;
+  font-size: 25px;
+}
+
+
+/*/////////////////////User Get Credits Now////////////////////////*/
+#dashbord-user-get-credits_now{
+  background-color: #fff;
+  
+}
+#get-credits-now-b{
+    -webkit-box-shadow: -1px 6px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 6px 15px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 6px 15px 0px rgba(0,0,0,0.75);
+    padding: 20px 5px;
+    border-radius:20px;
+    margin:30px 0px;
+    transition: 0.3s;
+    width: 85%;
+    
+}
+#get-credits-now-b:hover{
+   -webkit-box-shadow: -1px 6px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 6px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 6px 5px 0px rgba(0,0,0,0.75);
+    padding: 20px 20px;
+    border-radius:20px;
+    margin: 35px 0px;
+    transition: 0.3s;
+}
+#dashbord-user-get-credits_now a{
+  text-decoration: none;
+}
+.vl{
+  border-right: 1px solid #616161;
+  height: 80%;
+  margin:22px 0px;
+  padding-right: 40px;
+}
+#get-credits-now-b h2{
+  margin:0px 0px;
+   color: #000080;
+   font-size: 35px;
+   font-family: 'Times New Roman', Times, serif;
+}
+#get-credits-now-b h4{
+  margin-top: 10px;
+  font-size: 25px;
+  padding-left: 10px;
+  color: #000;
+}
+#get-credits-now-b h5{
+  margin-bottom: 10px;
+  font-size: 20px;
+  padding-left: 10px;
+  color: #616161;
+}
+#get-credits-now-b h6{
+  font-size:50px;
+  color: #000080;
+  margin-top: 10px;
+}
+#dashbord-user-get-credits_now h3{
+  padding: 40px 0px 0px 0px;
+}
+
+
+/*////////////////////// User-Favorites//////////////////////////*/
+#user-favorites{
+  background-color: #fff;
+}
+#user-favorites h4{
+   /* background-image: linear-gradient(to right,#140047 , #00186f); */
+   background-color: #000080;
+   color: #fff;
+   padding: 0px 0px;
+   border-top-right-radius:20px;
+   border-top-left-radius:20px;
+}
+#user-favorites h2{
+    margin: 20px 0px;
+    color: #616161;
+}
+#user-favorites h2 span{
+  float: right;
+  color: #d1092e;
+}
+#user-favorites h4 span{
+  float: right;
+}
+#user-favorites h5 {
+  font-size: 23px;
+}
+#user-favorites h6 {
+  font-size: 18px;
+}
+#user-favorites h6 span{
+  float: right;
+}
+#user-favorites h6 a{
+    color: green;
+    text-decoration: none;
+    font-weight: 700;
+}
+#user-favorites-b-one{
+    border: 1px solid #000;
+    margin: 0px;
+    margin-top: -8px;
+    padding: 20px;
+    border-bottom-right-radius:20px;
+    border-bottom-left-radius:20px;
+}
+#user-favorites h3{
+    padding: 30px;
+    color: #616161;
+}
+
+
+/*////////////////////////user-my-passes////////////////////////*/
+#user-favorites-two{
+  background-color: #fff;
+}
+/* .passBoxTextHeader{font-size: 18;font-weight: 600;padding: 5px 10px 5px 10px;}
+.passBoxTextHeaderSpan{font-size: 18;font-weight: 600;padding: 5px 10px 5px 10px;} */
+#user-favorites-two h4{
+   /* background-image: linear-gradient(to right,#140047 , #00186f); */
+   background-color: #000080;
+   color: #fff;
+   padding: 10px 40px 10px 40px;
+   border-top-right-radius:20px;
+   border-top-left-radius:20px;
+   font-size: 18px;
+   font-weight: 600;
+}
+.passbox h4{
+  background-color: #000080;
+   color: #fff;
+   padding: 10px 40px 10px 40px;
+   border-top-right-radius:20px;
+   border-top-left-radius:20px;
+   font-size: 18px;
+   font-weight: 600;
+}
+.passbox h4 span{
+  float: right;
+  padding: 0px 5px 0px 5px;
+}
+#user-favorites-two h2{
+    margin: 20px 0px;
+    color: #616161;
+}
+#user-favorites-two h2 span{
+  float: right;
+  color: #d1092e;
+}
+#user-favorites-two h4 span{
+  float: right;
+}
+#user-favorites-two h5 {
+  font-size: 23px;
+}
+#user-favorites-two h6 {
+  font-size: 18px;
+}
+#user-favorites-two h6 span{
+  float: right;
+}
+#user-favorites-two h6 a{
+    color: green;
+    text-decoration: none;
+    font-weight: 700;
+}
+#user-favorites-b-one{
+    border: 1px solid #000;
+    margin: 0px;
+    margin-top: -8px;
+    padding: 10px;
+    border-bottom-right-radius:20px;
+    border-bottom-left-radius:20px;
+}
+#user-favorites-two h3{
+    padding: 30px;
+    color: #616161;
+}
+
+#active-pass{
+   margin-top: -10px;
+   margin-bottom: 50px;
+   -webkit-box-shadow: 0px 2px 19px -4px rgba(0,0,0,0.75);
+   -moz-box-shadow: 0px 2px 19px -4px rgba(0,0,0,0.75);
+   box-shadow: 0px 2px 9px -4px rgba(0,0,0,0.75);
+   border-radius: 10px;cursor: default;
+  }
+  #active-pass h2{
+    font-size: 23px;
+    text-align: center;
+    color: #626262;
+  }
+  .neo{width: 500px;}
+.neo h2,h5{
+  color: #616161;
+}
+.neo img{
+  margin-top: 10px;
+  -webkit-box-shadow: 0px 2px 19px -4px rgba(0,0,0,0.75);
+   -moz-box-shadow: 0px 2px 19px -4px rgba(0,0,0,0.75);
+   box-shadow: 0px 2px 19px -4px rgba(0,0,0,0.75);
+   transition: 0.3s;
+}
+.neo img:hover{
+  margin-top: 10px;
+  -webkit-box-shadow: 0px 2px 9px -4px rgba(0,0,0,0.75);
+   -moz-box-shadow: 0px 2px 9px -4px rgba(0,0,0,0.75);
+   box-shadow: 0px 2px 9px -4px rgba(0,0,0,0.75);
+   transition: 0.3s;
+}
+
+/*///////////////////////user-payment-two/////////////////////////////*/
+
+.main_container{ overflow-y: scroll; max-height: 600px; overflow-x: hidden;}
+.history_container{ border: 1px solid #ECF0F1; padding: 5px 25px 5px 25px; margin-bottom: 10px;}
+ #history_row h3{ font-size: 16px; padding-left: 5px;}
+   
+.user-payment-two{
+  background-color: #fff;
+}
+#payment-card h3{
+    text-align: left;
+    color: #898181;
+    margin-top: 30px;
+    padding: 5px 0px;
+}
+#payment-card input{
+  border: none;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+#payment-card p{
+  color: #f0f0f0;
+  font-size: 18px;
+}
+#c-bg-o{
+   background-image: linear-gradient(to right,#140047 , #00186f);
+   color: #fff;
+   border-right: 5px solid #fff;
+   border-radius: 10px;
+   padding: 20px 20px;
+}
+#c-bg-t{
+   background-image: linear-gradient(to right,#146161 , #616161);
+   color: #fff;
+   border-left: 5px solid #fff;
+   border-radius: 10px;
+   padding: 20px 20px;
+}
+#apple-box{
+  border-radius: 10px;
+  margin: 20px 0px;
+  -webkit-box-shadow: -1px 7px 16px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 7px 16px -6px rgba(0,0,0,0.75);
+  box-shadow: -1px 7px 16px -6px rgba(0,0,0,0.75);
+}
+#apple-box p{
+  color: #000;
+  padding-top: 15px;
+  font-size: 25px;
+  font-weight: 600;
+}
+#apple-box i{
+  font-size:30px;
+  padding-top: 20px;
+}
+#c-p-c-i{
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 10px 50px 10px 10px;
+  margin:20px 0px; 
+}
+.cpc-next{
+  text-align: center;
+  margin: 50px 0px;
+}
+.cpc-next a{
+   background-image: linear-gradient(to right,#140047 , #00186f);
+   padding:10px 70px;
+   text-decoration: none;
+   color: #fff;
+   font-size: 22px;
+   border-radius:30px;
+}
+
+
+/*/////////////////////Responsive (01/07/2020)//////////////////////////////////////*/
+@media only screen and (min-width:200px) and (max-width:300px)
+{
+  /* .dashbord-menu{
+    border-right: 10px;
+    display: none;
+    border-bottom: 35px solid #f0f0f0;
+} */
+}
+
+@media only screen and (min-width:300px) and (max-width:500px) 
+{
+  html, body {width: auto!important; overflow-x: hidden!important}
+
+/*////////////////////////Admin Indax Page////////////////////*/
+/*//////////////////////// 02/07/18 Page////////////////////*/
+#mob-menu-side i{
+    display: block;
+    color: #000080;
+    padding-top: 50px;
+}
+#mob-menu-side a {
+  text-decoration: none;
+}
+#profile-banner h2 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 35px;
+}
+#profile-banner ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+
+/* .dashbord-menu{
+    border-right: 10px;
+    display: none;
+    border-bottom: 35px solid #f0f0f0;
+} */
+.dashbord-menu-two {
+    background-color: #fff;
+    border-right:15px solid #f0f0f0;
+}
+
+
+/*//////////////////////// 02/07/18 Page////////////////////*/
+
+#man-pic img {
+    width: 40%;
+    margin-top: 30px;
+}
+.app-logo {
+    margin-top: 70px;
+    background-color: #fff;
+}
+#app-logo img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#change-pass a {
+    border: 1px solid #818181;
+    padding: 7px 5px;
+    border-radius: 7px;
+    text-decoration: none;
+    color: #616161;
+}
+#save-btn a {
+    background-color: #000080;
+    padding: 10px 60px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    border-radius: 30px;
+}
+
+
+/*///////////For check-out Payment Order List Page///////*/
+
+
+   
+   #c-bg-o {
+    background-image: linear-gradient(to right,#140047 , #00186f);
+    color: #fff;
+    border-right: 5px solid #fff;
+    border-radius: 30px;
+    padding: 20px 20px;
+    border: 20px solid #fff;
+   }
+    #c-bg-t {
+    background-image: linear-gradient(to right,#146161 , #616161);
+    color: #fff;
+    border-right: 5px solid #fff;
+    border-radius: 30px;
+    padding: 20px 20px;
+    border: 20px solid #fff;
+   }     
+   #payment-card input {
+    border: none;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 0px;
+   }
+   #apple-box p {
+    color: #000;
+    padding-top: 15px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/*/////////////////////User Get Credits Now////////////////////////*/
+
+#get-credits-now-b {
+    -webkit-box-shadow: -1px 6px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 6px 15px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 6px 15px 0px rgba(0,0,0,0.75);
+    padding: 20px 5px;
+    border-radius: 20px;
+    margin: 30px 0px;
+    transition: 0.3s;
+}
+#get-credits-now-b:hover{
+   -webkit-box-shadow: -1px 6px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 6px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 6px 5px 0px rgba(0,0,0,0.75);
+    padding: 20px 5px;
+    border-radius:20px;
+    margin:35px 0px;
+    transition: 0.3s;
+}
+#get-credits-now-b h5 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding-left: 0px;
+    color: #616161;
+}
+#get-credits-now-b h2 {
+    margin: 13px 0px;
+    color: #000080;
+    font-size: 25px;
+}
+#get-credits-now-b h4 {
+    margin-top: 10px;
+    font-size: 18px;
+    padding-left: 10px;
+    color: #000;
+}
+#get-credits-now-b h6 {
+    font-size: 35px;
+    color: #000080;
+    padding-top: 15px;
+}
+.vl{
+  border-right: 1px solid #616161;
+  height: 50px;
+  margin:25px 0px;
+  padding-left: 5px;
+}
+/*////////////////////////user-my-passes////////////////////////*/
+
+#active-pass h2 {
+    font-size: 20px;
+    margin: 0px;
+    text-align: center;
+    padding: 20px 0px;
+    color: #626262;
+}
+#user-favorites h4 {
+    background-image: linear-gradient(to right,#140047 , #00186f);
+    color: #fff;
+    padding: 25px 0px 70px 65px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    font-size: 16;
+    font-weight: 500;
+}
+.neo{width: 280px;}
+.neo img {
+    margin-top: 10px;
+    -webkit-box-shadow: 0px 2px 19px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 19px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 19px -4px rgba(0,0,0,0.75);
+    transition: 0.3s;
+    width: 100%;
+    text-align: center;
+}
+#user-favorites h2 {
+    margin: 12px 0px;
+    color: #616161;
+    font-size: 20px;
+}
+#user-favorites-b-one h5 {
+    font-size: 20px;
+    padding: 30px 0px 20px 0px;
+}
+.col-lg-12.neo {
+    margin-top: 19px;
+}
+.passbox h4{
+  background-color: #000080;
+   color: #fff;
+   padding: 10px 0px 10px 0px;
+   border-top-right-radius:20px;
+   border-top-left-radius:20px;
+   font-size: 14px;
+   font-weight: 500;
+}
+.passbox h4 span{
+  float: right;
+  padding: 0px 5px 0px 5px;
+}
+
+/*////////////////////// User-Favorites//////////////////////////*/
+
+
+#user-favorites-two h4 {
+    background-image: linear-gradient(to right,#140047 , #00186f);
+    color: #fff;
+    padding: 15px 10px 15px 25px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    font-size: 19px;
+}
+#user-favorites-two img{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+#user-favorites-two h2 {
+    margin: 20px 0px;
+    color: #616161;
+    font-size: 26px;
+
+}
+
+
+/*///////////////////////////Suggest a Gym/////////////////////////*/
+
+#dashbord-menu-suggest input {
+    margin-top: -5px;
+    padding: 10px 79px 10px 50px;
+}
+#suggest-btn-g a {
+    padding: 10px 50px;
+    background-image: linear-gradient(to right,#140047 , #00186f);
+    color: #fff;
+    border-radius: 40px;
+    font-size: 25px;
+    text-decoration: none;
+}
+#suggest-btn-g {
+    text-align: center;
+    margin-top: 65px;
+    margin-bottom: 50px;
+}
+
+/*/////////////////////////// Invite a Friend /////////////////////////*/
+
+#s img {
+    -webkit-box-shadow: 1px 6px 18px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 6px 18px -5px rgba(0,0,0,0.75);
+    box-shadow: 1px 6px 18px -5px rgba(0,0,0,0.75);
+    margin-left: 10px;
+    transition: .3s;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+#s img:hover{
+    -webkit-box-shadow: 1px 3px 9px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 3px 9px -5px rgba(0,0,0,0.75);
+    box-shadow: 1px 3px 9px -5px rgba(0,0,0,0.75);
+    margin-left: 10px;
+    height: auto;
+    margin: auto;
+    display: block;
+     transform: rotate(5deg);
+     transition: .3s;
+}
+
+/*/////////////////////////// Gift for Friend /////////////////////////*/
+
+
+#dashbord-invite-fnd h2 {
+    font-size: 25px;
+    color: #656161;
+    padding-left: 10px;
+}
+#five-creditss input {
+    padding: 10px 20px 10px 35px;
+    font-size: 21px;
+}
+#confirm {
+    margin: 30px 0px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+#confirm a {
+    padding: 15px 50px;
+    background-image: linear-gradient(to right,#140047 , #00186f);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+}
+
+/*/////////////////////Responsive (30/06/2020)//////////////////////////////////////*/
+
+@media only screen and (min-width:500px) and (max-width:800px) 
+{
+  html, body {width: auto!important; overflow-x: hidden!important}
+
+
+/*////////////////////////Admin Indax Page////////////////////*/
+#profile-banner ul li a i {
+    margin-right: 10px;
+}
+#profile-banner ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+}
+#save-btn a {
+    background-color: #000080;
+    padding: 15px 60px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    border-radius: 30px;
+}
+#change-pass a {
+    border: 1px solid #818181;
+    padding: 7px 26px;
+    border-radius: 7px;
+    text-decoration: none;
+    color: #616161;
+}
+
+#app-logo img {
+    height: auto;
+    display: block;
+    margin: auto;
+    width: 60%;
+    padding: 50px 0px;
+}
+
+/*///////////For check-out Payment Cared Page///////*/
+#c-bg-o {
+    background-image: linear-gradient(to right,#140047 , #00186f);
+    color: #fff;
+    border-right: 5px solid #fff;
+    border-radius: 10px;
+    padding: 20px 20px;
+    margin: 25px 5px;
+}
+
+
+
+/*/////////////////////User Get Credits Now////////////////////////*/
+
+#get-credits-now-b {
+    -webkit-box-shadow: -1px 6px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 6px 15px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 6px 15px 0px rgba(0,0,0,0.75);
+    padding: 10px 47px;
+    border-radius: 20px;
+    margin: 30px 10px;
+    transition: 0.3s;
+}
+#get-credits-now-b:hover{
+   -webkit-box-shadow: -1px 6px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 6px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 6px 5px 0px rgba(0,0,0,0.75);
+    padding: 10px 47px;
+    border-radius:20px;
+    margin: 35px 10px;
+    transition: 0.3s;
+}
+#get-credits-now-b h4 {
+    margin-top: 10px;
+    font-size: 25px;
+    padding-left: 10px;
+    color: #000;
+}
+#get-credits-now-b h2 {
+    margin: 12px -15px;
+    font-size: 27px;
+    color: #000080;
+}
+#get-credits-now-b h5 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  padding-left: 10px;
+  color: #616161;
+} 
+
+
+
+/*////////////////////// User-Favorites//////////////////////////*/
+
+#user-favorites-b-one img{
+    margin: auto;
+    height: auto;
+    display: block;
+    text-align: center;
+}
+#user-favorites-two h2 {
+    margin: 20px 0px;
+    color: #616161;
+    font-size: 30px;
+}
+
+/*////////////////////////user-my-passes////////////////////////*/
+
+/* #user-favorites h4 {
+    background-image: linear-gradient(to right,#140047 , #00186f);
+    color: #fff;
+    padding: 53px 0px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+} */
+#user-favorites h2 {
+    margin: 20px 0px;
+    color: #616161;
+    font-size: 30px;
+}
+#user-favorites h5 {
+    font-size: 17px;
+}
+.passbox h4{
+  background-color: #000080;
+   color: #fff;
+   padding: 10px 0px 10px 0px;
+   border-top-right-radius:20px;
+   border-top-left-radius:20px;
+   font-size: 18px;
+   font-weight: 600;
+}
+.passbox h4 span{
+  float: right;
+  padding: 0px 5px 0px 5px;
+}
+
+/*///////////////////////////Suggest a Gym/////////////////////////*/
+
+#dashbord-menu-suggest input {
+    margin-top: -5px;
+    padding: 10px 200px 10px 30px;
+}
+#suggest-btn-g a {
+    padding: 10px 50px;
+    background-image: linear-gradient(to right,#140047 , #00186f);
+    color: #fff;
+    border-radius: 40px;
+    font-size: 25px;
+    text-decoration: none;
+}
+#suggest-btn-g {
+    text-align: center;
+    margin-top: 65px;
+    margin-bottom: 61px;
+}
+
+/*/////////////////////////// Invite a Friend /////////////////////////*/
+
+#s img {
+    -webkit-box-shadow: 1px 6px 18px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 6px 18px -5px rgba(0,0,0,0.75);
+    box-shadow: 1px 6px 18px -5px rgba(0,0,0,0.75);
+    transition: .3s;
+    margin: auto;
+    height: auto;
+    display: block;
+    width: 60%;
+}
+#s img:hover{
+    -webkit-box-shadow: 1px 6px 18px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 6px 18px -5px rgba(0,0,0,0.75);
+    box-shadow: 1px 6px 18px -5px rgba(0,0,0,0.75);
+    transform: rotate(5deg);
+    transition: .3s;
+    margin: auto;
+    height: auto;
+    display: block;
+    width: 60%;
+}
+
+
+/*/////////////////////////// Gift for Friend /////////////*/
+#five-creditss input {
+    padding: 10px 50px 10px 60px;
+    font-size: 20px;
+}
+#confirm {
+    margin: 50px 0px 80px 0px;
+    text-align: center;
+}
+#confirm a {
+    padding: 15px 60px;
+    background-image: linear-gradient(to right,#140047 , #00186f);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+}
+
+
+@media only screen and (min-width:800px) and (max-width:991px) 
+{
+  html, body {width: auto!important; overflow-x: hidden!important}
+
+/* //////////////////////My Favorite Gym //////////////////////// */
+#user-favorites-b-one img{
+  margin: auto;
+  height: auto;
+  display: block;
+  text-align: center;
+}
+get-credits-now-b{
+  width: 10%;
+}
+}
